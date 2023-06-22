@@ -272,6 +272,7 @@ export class MakieCamera {
         return;
     }
 
+    // TODO
     clip_to_space(space) {
         if (space === "data") {
             return this.projectionview_inverse.value;
