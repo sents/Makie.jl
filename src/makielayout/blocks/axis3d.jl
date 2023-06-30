@@ -453,8 +453,7 @@ end
 # this function projects a point from a 3d subscene into the parent space with a really
 # small z value
 function to_topscene_z_2d(p3d, scene)
-    o = scene.px_area[].origin
-    p2d = Point2f(o + Makie.project(scene, p3d))
+    p2d = Makie.project_to_pixel(scene, p3d)
     # -10000 is an arbitrary weird constant that in preliminary testing didn't seem
     # to clip into plot objects anymore
     Point3f(p2d..., -10000)
@@ -515,14 +514,12 @@ function add_ticks_and_ticklabels!(topscene, scene, ax, dim::Int, limits, tickno
         transparency = true, inspectable = false,
         color = attr(:tickcolor), linewidth = attr(:tickwidth), visible = attr(:ticksvisible))
 
-    labels_positions = lift(topscene, scene.px_area, scene.camera.projectionview,
-            tick_segments, ticklabels, attr(:ticklabelpad)) do pxa, pv, ticksegs, ticklabs, pad
-
-        o = pxa.origin
+    labels_positions = lift(topscene, scene.camera.projectionview, scene.px_area,
+            tick_segments, ticklabels, attr(:ticklabelpad)) do _, _, ticksegs, ticklabs, pad
 
         points = map(ticksegs) do (tstart, tend)
-            tstartp = Point2f(o + Makie.project(scene, tstart))
-            tendp = Point2f(o + Makie.project(scene, tend))
+            tstartp = Makie.project_to_pixel(scene, tstart)
+            tendp = Makie.project_to_pixel(scene, tend)
 
             offset = pad * Makie.GeometryBasics.normalize(
                 Point2f(tendp - tstartp))
@@ -560,7 +557,6 @@ function add_ticks_and_ticklabels!(topscene, scene, ax, dim::Int, limits, tickno
             attr(:labeloffset), attr(:labelrotation), attr(:labelalign)
             ) do pxa, pv, lims, miv, min1, min2, labeloffset, lrotation, lalign
 
-        o = pxa.origin
 
         f1 = !min1 ? minimum(lims)[d1] : maximum(lims)[d1]
         f2 = min2 ? minimum(lims)[d2] : maximum(lims)[d2]
@@ -570,8 +566,8 @@ function add_ticks_and_ticklabels!(topscene, scene, ax, dim::Int, limits, tickno
         p2 = dpoint(maximum(lims)[dim], f1, f2)
 
         # project them into screen space
-        pp1 = Point2f(o + Makie.project(scene, p1))
-        pp2 = Point2f(o + Makie.project(scene, p2))
+        pp1 = Makie.project_to_pixel(scene, p1)
+        pp2 = Makie.project_to_pixel(scene, p2)
 
         # find the midpoint
         midpoint = (pp1 + pp2) ./ 2

@@ -238,19 +238,6 @@ function point_in_quad_parameter(
 end
 
 
-## Shifted projection
-########################################
-
-function shift_project(scene, plot, pos)
-    project(
-        camera(scene).projectionview[],
-        Vec2f(widths(pixelarea(scene)[])),
-        apply_transform(transform_func(plot), pos, to_value(get(plot, :space, :data)))
-    ) .+ Vec2f(origin(pixelarea(scene)[]))
-end
-
-
-
 ################################################################################
 ### Interactive selection via DataInspector
 ################################################################################
@@ -500,7 +487,7 @@ function show_data(inspector::DataInspector, plot::Scatter, idx)
     tt = inspector.plot
     scene = parent_scene(plot)
 
-    proj_pos = shift_project(scene, plot, to_ndim(Point3f, plot[1][][idx], 0))
+    proj_pos = project_to_screen(plot, to_ndim(Point3f, plot[1][][idx], 0))
     update_tooltip_alignment!(inspector, proj_pos)
 
     if haskey(plot, :inspector_label)
@@ -566,7 +553,7 @@ function show_data(inspector::DataInspector, plot::MeshScatter, idx)
         a.indicator_visible[] = true
     end
 
-    proj_pos = shift_project(scene, plot, to_ndim(Point3f, plot[1][][idx], 0))
+    proj_pos = project_to_screen(plot, to_ndim(Point3f, plot[1][][idx], 0))
     update_tooltip_alignment!(inspector, proj_pos)
 
     if haskey(plot, :inspector_label)
@@ -590,7 +577,7 @@ function show_data(inspector::DataInspector, plot::Union{Lines, LineSegments}, i
     origin, dir = view_ray(scene)
     pos = closest_point_on_line(p0, p1, origin, dir)
 
-    proj_pos = shift_project(scene, plot, to_ndim(Point3f, pos, 0))
+    proj_pos = project_to_screen(plot, to_ndim(Point3f, pos, 0))
     update_tooltip_alignment!(inspector, proj_pos)
 
     tt.offset[] = ifelse(
@@ -903,7 +890,7 @@ function show_data(inspector::DataInspector, plot::BarPlot, idx)
     scene = parent_scene(plot)
 
     pos = plot[1][][idx]
-    proj_pos = shift_project(scene, plot, to_ndim(Point3f, pos, 0))
+    proj_pos = project_to_screen(plot, to_ndim(Point3f, pos, 0))
     update_tooltip_alignment!(inspector, proj_pos)
 
     if a.enable_indicators[]

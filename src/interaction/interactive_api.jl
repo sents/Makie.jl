@@ -202,6 +202,7 @@ screen_relative(x, mpos) = screen_relative(get_scene(x), mpos)
 function screen_relative(scene::Scene, mpos)
     return Point2f(mpos) .- Point2f(minimum(pixelarea(scene)[]))
 end
+# ^ TODO kidna dublicate with projection changes
 
 """
     mouseposition(scene = hovered_scene())
@@ -214,7 +215,7 @@ By default uses the `scene` that the mouse is currently hovering over.
 mouseposition(x) = mouseposition(get_scene(x))
 
 function mouseposition(scene::Scene = hovered_scene())
-    return to_world(scene, mouseposition_px(scene))
+    return project_to_world(scene, :pixel, mouseposition_px(scene))
 end
 
 mouseposition_px(x) = mouseposition_px(get_scene(x))
