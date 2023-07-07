@@ -21,7 +21,8 @@ end
 function Transformation(transformable::Transformable;
                         scale=Vec3f(1),
                         translation=Vec3f(0),
-                        rotation=Quaternionf(0, 0, 0, 1))
+                        rotation=Quaternionf(0, 0, 0, 1),
+                        transform_func=automatic)
 
     scale_o = convert(Observable{Vec3f}, scale)
     translation_o = convert(Observable{Vec3f}, translation)
@@ -38,7 +39,7 @@ function Transformation(transformable::Transformable;
         scale_o,
         rotation_o,
         model,
-        copy(parent_transform.transform_func)
+        transform_func === automatic ? copy(parent_transform.transform_func) : transform_func
     )
 
     trans.parent[] = parent_transform
