@@ -105,7 +105,7 @@ function create_shader(scene::Scene, plot::Makie.Mesh)
     get!(uniforms, :colorrange, true)
     get!(uniforms, :colormap, true)
     get!(uniforms, :pattern, false)
-    get!(uniforms, :model, plot.model)
+    get!(uniforms, :model, Makie._get_model_obs(plot))
     get!(uniforms, :lightposition, Vec3f(1))
     get!(uniforms, :ambient, Vec3f(1))
 
@@ -119,7 +119,7 @@ function create_shader(scene::Scene, plot::Makie.Mesh)
 
     uniforms[:depth_shift] = get(plot, :depth_shift, Observable(0f0))
 
-    uniforms[:normalmatrix] = map(scene.camera.view, plot.model) do v, m
+    uniforms[:normalmatrix] = map(scene.camera.view, uniforms[:model]) do v, m
         i = Vec(1, 2, 3)
         return transpose(inv(v[i, i] * m[i, i]))
     end

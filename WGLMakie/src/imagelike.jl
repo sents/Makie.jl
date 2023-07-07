@@ -31,7 +31,8 @@ function draw_mesh(mscene::Scene, mesh, plot; uniforms...)
     get!(uniforms, :lightposition, Vec3f(1))
     get!(uniforms, :ambient, Vec3f(1))
     get!(uniforms, :interpolate_in_fragment_shader, true)
-    uniforms[:normalmatrix] = map(mscene.camera.view, plot.model) do v, m
+    # TODO: This only works with space in (:data, :transformed, :world)
+    uniforms[:normalmatrix] = map(mscene.camera.view, uniforms[:model]) do v, m
         i = Vec(1, 2, 3)
         return transpose(inv(v[i, i] * m[i, i]))
     end
@@ -135,6 +136,7 @@ function create_shader(mscene::Scene, plot::Surface)
     normals = Buffer(lift(surface_normals, px, py, pz))
     vertices = GeometryBasics.meta(positions; uv=uv, normals=normals)
     mesh = GeometryBasics.Mesh(vertices, faces)
+    plot_attributes[:model] = Makie._get_model_obs(plot)
     return draw_mesh(mscene, mesh, plot_attributes; uniform_color=color, color=false,
                      shading=plot.shading, diffuse=plot.diffuse,
                      specular=plot.specular, shininess=plot.shininess,
@@ -155,6 +157,7 @@ function create_shader(mscene::Scene, plot::Union{Heatmap, Image})
         delete!(plot_attributes, :colormap)
         delete!(plot_attributes, :colorrange)
     end
+    plot_attributes[:model] = Makie._get_model_obs(plot)
 
     return draw_mesh(mscene, mesh, plot_attributes;
                      uniform_color=color, color=false,
@@ -173,7 +176,8 @@ function create_shader(mscene::Scene, plot::Volume)
     x, y, z, vol = plot[1], plot[2], plot[3], plot[4]
     box = GeometryBasics.mesh(Rect3f(Vec3f(0), Vec3f(1)))
     cam = cameracontrols(mscene)
-    model2 = lift(plot.model, x, y, z) do m, xyz...
+    
+    model2 = lift(Makie._get_model_obs(plot), x, y, z) do m, xyz...
         mi = minimum.(xyz)
         maxi = maximum.(xyz)
         w = maxi .- mi

@@ -44,7 +44,7 @@ const IGNORE_KEYS = Set([
     :shading, :overdraw, :rotation, :distancefield, :space, :markerspace, :fxaa,
     :visible, :transformation, :alpha, :linewidth, :transparency, :marker,
     :lightposition, :cycle, :label, :inspector_clear, :inspector_hover,
-    :inspector_label
+    :inspector_label, :model
 ])
 
 function create_shader(scene::Scene, plot::MeshScatter)
@@ -54,7 +54,7 @@ function create_shader(scene::Scene, plot::MeshScatter)
         return k in per_instance_keys && !(isscalar(v[]))
     end
     space = get(plot, :space, :data)
-    per_instance[:offset] = apply_transform(transform_func_obs(plot),  plot[1], space)
+    per_instance[:offset] = apply_transform(transform_func_obs(plot), plot[1], space)
 
     for (k, v) in per_instance
         per_instance[k] = Buffer(lift_convert(k, v, plot))
@@ -69,6 +69,7 @@ function create_shader(scene::Scene, plot::MeshScatter)
         k in IGNORE_KEYS && continue
         uniform_dict[k] = lift_convert(k, v, plot)
     end
+    uniform_dict[:model] = Makie._get_model_obs(plot)
 
     handle_color!(uniform_dict, per_instance)
     instance = convert_attribute(plot.marker[], key"marker"(), key"meshscatter"())
@@ -166,6 +167,7 @@ function scatter_shader(scene::Scene, attributes, plot)
         k in IGNORE_KEYS && continue
         uniform_dict[k] = lift_convert(k, v, plot)
     end
+    uniform_dict[:model] = Makie._get_model_obs(plot)
     if !isnothing(marker)
         get!(uniform_dict, :shape_type) do
             return Makie.marker_to_sdf_shape(marker)
@@ -211,7 +213,7 @@ function create_shader(scene::Scene, plot::Scatter)
     attributes[:marker_offset] = Vec3f(0)
     attributes[:quad_offset] = quad_offset
     attributes[:billboard] = map(rot -> isa(rot, Billboard), plot.rotations)
-    attributes[:model] = plot.model
+    attributes[:model] = Makie._get_model_obs(plot)
     attributes[:depth_shift] = get(plot, :depth_shift, Observable(0f0))
 
     delete!(attributes, :uv_offset_width)
@@ -280,7 +282,7 @@ function create_shader(scene::Scene, plot::Makie.Text{<:Tuple{<:Union{<:Makie.Gl
     cam = scene.camera
 
     uniforms = Dict(
-        :model => plot.model,
+        :model => Makie._get_model_obs(plot),
         :shape_type => Observable(Cint(3)),
         :color => uniform_color,
         :rotations => uniform_rotation,
