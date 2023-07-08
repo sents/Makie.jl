@@ -106,6 +106,9 @@ function create_shader(scene::Scene, plot::Makie.Mesh)
     get!(uniforms, :colormap, true)
     get!(uniforms, :pattern, false)
     get!(uniforms, :model, Makie._get_model_obs(plot))
+    # TODO: Are these still necessary? or does 
+    # serialize_three(scene::Scene, plot::AbstractPlot)
+    # always take care of this?
     get!(uniforms, :lightposition, Vec3f(1))
     get!(uniforms, :ambient, Vec3f(1))
 
