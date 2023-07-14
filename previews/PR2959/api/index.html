@@ -1023,12 +1023,12 @@ RGBA{Float32}(0.0f0,0.0f0,0.0f0,1.0f0)</code></pre></div></div><div class="docst
   strokecolor   :black
   strokewidth   0
   weights       MakieCore.Automatic()</code></pre></div></div><div class="docstring"><div class="doc-header" id="density!"><a href="#density!">density!</a></div><div class="doc-content"><pre><code>density(values; npoints = 200, offset = 0.0, direction = :x)</code></pre><p>Plot a kernel density estimate of <code>values</code>. <code>npoints</code> controls the resolution of the estimate, the baseline can be shifted with <code>offset</code> and the <code>direction</code> set to <code>:x</code> or <code>:y</code>. <code>bandwidth</code> and <code>boundary</code> are determined automatically by default.</p><p>Statistical weights can be provided via the <code>weights</code> keyword argument.</p><p><code>color</code> is usually set to a single color, but can also be set to <code>:x</code> or <code>:y</code> to color with a gradient. If you use <code>:y</code> when <code>direction = :x</code> (or vice versa), note that only 2-element colormaps can work correctly.</p><h2>Attributes</h2><p>Available attributes and their defaults for <code>Combined{Makie.density!}</code> are: </p><pre><code></code></pre></div></div><div class="docstring"><div class="doc-header" id="deregister_interaction!"><a href="#deregister_interaction!">deregister_interaction!</a></div><div class="doc-content"><pre><code>deregister_interaction!(parent, name::Symbol)</code></pre><p>Deregister the interaction named <code>name</code> registered in <code>parent</code>.</p></div></div><div class="docstring"><div class="doc-header" id="disconnect!"><a href="#disconnect!">disconnect!</a></div><div class="doc-content"><p>No documentation found.</p><p><code>Makie.disconnect!</code> is a <code>Function</code>.</p><pre><code># 16 methods for generic function "disconnect!" from Makie:
-  [1] disconnect!(observables::Vector)
-     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:36
-  [2] disconnect!(screen::GLMakie.Screen, ::typeof(mouse_position))
+  [1] disconnect!(screen::GLMakie.Screen, ::typeof(mouse_position))
      @ GLMakie ~/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:230
-  [3] disconnect!(screen::GLMakie.Screen, ::typeof(window_area))
+  [2] disconnect!(screen::GLMakie.Screen, ::typeof(window_area))
      @ GLMakie ~/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:82
+  [3] disconnect!(observables::Vector)
+     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:36
   [4] disconnect!(window::MakieScreen, signal)
      @ ~/work/Makie.jl/Makie.jl/src/interaction/events.jl:35
   [5] disconnect!(window::GLFW.Window, ::typeof(entered_window))
@@ -1051,10 +1051,10 @@ RGBA{Float32}(0.0f0,0.0f0,0.0f0,1.0f0)</code></pre></div></div><div class="docst
      @ GLMakie ~/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:86
  [14] disconnect!(window::GLFW.Window, ::typeof(window_open))
      @ GLMakie ~/work/Makie.jl/Makie.jl/GLMakie/src/events.jl:36
- [15] disconnect!(c::EmptyCamera)
-     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:32
- [16] disconnect!(c::Camera)
-     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:24</code></pre></div></div><div class="docstring"><div class="doc-header" id="dropped_files"><a href="#dropped_files">dropped_files</a></div><div class="doc-content"><p>Registers a callback for drag and drop of files. returns <code>Observable{Vector{String}}</code>, which are absolute file paths <a href="http://www.glfw.org/docs/latest/group__input.html#gacc95e259ad21d4f666faa6280d4018fd">GLFW Docs</a></p></div></div><div class="docstring"><div class="doc-header" id="ecdfplot"><a href="#ecdfplot">ecdfplot</a></div><div class="doc-content"><pre><code>ecdfplot(values; npoints=10_000[, weights])</code></pre><p>Plot the empirical cumulative distribution function (ECDF) of <code>values</code>.</p><p><code>npoints</code> controls the resolution of the plot. If <code>weights</code> for the values are provided, a weighted ECDF is plotted.</p><h2>Attributes</h2><p>Available attributes and their defaults for <code>Combined{Makie.ecdfplot}</code> are: </p><pre><code>  color           :black
+ [15] disconnect!(c::Camera)
+     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:24
+ [16] disconnect!(c::EmptyCamera)
+     @ ~/work/Makie.jl/Makie.jl/src/camera/camera.jl:32</code></pre></div></div><div class="docstring"><div class="doc-header" id="dropped_files"><a href="#dropped_files">dropped_files</a></div><div class="doc-content"><p>Registers a callback for drag and drop of files. returns <code>Observable{Vector{String}}</code>, which are absolute file paths <a href="http://www.glfw.org/docs/latest/group__input.html#gacc95e259ad21d4f666faa6280d4018fd">GLFW Docs</a></p></div></div><div class="docstring"><div class="doc-header" id="ecdfplot"><a href="#ecdfplot">ecdfplot</a></div><div class="doc-content"><pre><code>ecdfplot(values; npoints=10_000[, weights])</code></pre><p>Plot the empirical cumulative distribution function (ECDF) of <code>values</code>.</p><p><code>npoints</code> controls the resolution of the plot. If <code>weights</code> for the values are provided, a weighted ECDF is plotted.</p><h2>Attributes</h2><p>Available attributes and their defaults for <code>Combined{Makie.ecdfplot}</code> are: </p><pre><code>  color           :black
   colormap        :viridis
   colorrange      MakieCore.Automatic()
   cycle           [:color]
