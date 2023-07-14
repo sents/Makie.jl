@@ -5,407 +5,407 @@ title_boost = "Ridiculous"
 url_prefix = "/dev/"
 
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/FqoiX40eY3IZ2lXP4ERZ.html"
+    path = "/tmp/jl_QtFLRb/FqoiX40eY3IZ2lXP4ERZ.html"
     title = "404 · Makie"
     url = "404.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/vfTVmlO1sem3TTjCblt0.html"
+    path = "/tmp/jl_QtFLRb/vfTVmlO1sem3TTjCblt0.html"
     title = "Interactive visualizations and powerful plotting in Julia · Makie"
     url = "index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/Xyvrzgik4H4c4ykDdBAj.html"
+    path = "/tmp/jl_QtFLRb/Xyvrzgik4H4c4ykDdBAj.html"
     title = "API · Makie"
     url = "api/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/sYa0Cj3ZcZ13Oswn1mgc.html"
+    path = "/tmp/jl_QtFLRb/sYa0Cj3ZcZ13Oswn1mgc.html"
     title = "Documentation · Makie"
     url = "documentation/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/xtZwA0AkOff4FilR9y8i.html"
+    path = "/tmp/jl_QtFLRb/xtZwA0AkOff4FilR9y8i.html"
     title = "Animations · Makie"
     url = "documentation/animation/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/MlToQlbT0TRADkIhPZyi.html"
+    path = "/tmp/jl_QtFLRb/MlToQlbT0TRADkIhPZyi.html"
     title = "Backends · Makie"
     url = "documentation/backends/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/lQBJYxu9idXKd05Uq39S.html"
+    path = "/tmp/jl_QtFLRb/lQBJYxu9idXKd05Uq39S.html"
     title = "CairoMakie · Makie"
     url = "documentation/backends/cairomakie/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/lBnZjUZmqWWIlmeJi1xZ.html"
+    path = "/tmp/jl_QtFLRb/lBnZjUZmqWWIlmeJi1xZ.html"
     title = "GLMakie · Makie"
     url = "documentation/backends/glmakie/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/6zCkVcQPy9sIvhTQelwS.html"
+    path = "/tmp/jl_QtFLRb/6zCkVcQPy9sIvhTQelwS.html"
     title = "RPRMakie · Makie"
     url = "documentation/backends/rprmakie/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/z5pjEjG1sUuxUvGIauWk.html"
+    path = "/tmp/jl_QtFLRb/z5pjEjG1sUuxUvGIauWk.html"
     title = "WGLMakie · Makie"
     url = "documentation/backends/wglmakie/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/mSm0l60aIEbK2AqFsqQP.html"
+    path = "/tmp/jl_QtFLRb/mSm0l60aIEbK2AqFsqQP.html"
     title = "Blocks · Makie"
     url = "documentation/blocks/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/OkCFIFoD88ZpHxSTdiwr.html"
+    path = "/tmp/jl_QtFLRb/OkCFIFoD88ZpHxSTdiwr.html"
     title = "Cameras · Makie"
     url = "documentation/cameras/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/2SUyFuECif2LQvUsDuV7.html"
+    path = "/tmp/jl_QtFLRb/2SUyFuECif2LQvUsDuV7.html"
     title = "Colors · Makie"
     url = "documentation/colors/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/33YSSq3QM0Ubxg832BrI.html"
+    path = "/tmp/jl_QtFLRb/33YSSq3QM0Ubxg832BrI.html"
     title = "Events · Makie"
     url = "documentation/events/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/3sWj8zfnfllOwDZBG6k8.html"
+    path = "/tmp/jl_QtFLRb/3sWj8zfnfllOwDZBG6k8.html"
     title = "Frequently Asked Questions · Makie"
     url = "documentation/faq/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/FMYtJZK90dy8IearSVam.html"
+    path = "/tmp/jl_QtFLRb/FMYtJZK90dy8IearSVam.html"
     title = "Figures · Makie"
     url = "documentation/figure/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/TjaDNeu0KCYjDBGWLBB7.html"
+    path = "/tmp/jl_QtFLRb/TjaDNeu0KCYjDBGWLBB7.html"
     title = "Exporting a Figure with physical dimensions · Makie"
     url = "documentation/figure_size/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/iURRe7ELQxgP36UwtKC4.html"
+    path = "/tmp/jl_QtFLRb/iURRe7ELQxgP36UwtKC4.html"
     title = "Fonts · Makie"
     url = "documentation/fonts/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/LVRwfMK1umh62XRFS0fI.html"
+    path = "/tmp/jl_QtFLRb/LVRwfMK1umh62XRFS0fI.html"
     title = "Headless · Makie"
     url = "documentation/headless/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/CpaTZPDFzkg6RjsJYDBw.html"
+    path = "/tmp/jl_QtFLRb/CpaTZPDFzkg6RjsJYDBw.html"
     title = "Inspecting Data · Makie"
     url = "documentation/inspector/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/dczbO7k4NxoXPi43AjzU.html"
+    path = "/tmp/jl_QtFLRb/dczbO7k4NxoXPi43AjzU.html"
     title = "LaTeX · Makie"
     url = "documentation/latex/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/s1Th7dcEiAdRUkEvRtk2.html"
+    path = "/tmp/jl_QtFLRb/s1Th7dcEiAdRUkEvRtk2.html"
     title = "How layouts work · Makie"
     url = "documentation/layouting/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/iT8PzVg6QaHpQflNnvPc.html"
+    path = "/tmp/jl_QtFLRb/iT8PzVg6QaHpQflNnvPc.html"
     title = "Lighting · Makie"
     url = "documentation/lighting/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/If2HmftwiAlt62fyWgZr.html"
+    path = "/tmp/jl_QtFLRb/If2HmftwiAlt62fyWgZr.html"
     title = "Observables & Interaction · Makie"
     url = "documentation/nodes/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/36CEMCpd0qGiB6m2KYtA.html"
+    path = "/tmp/jl_QtFLRb/36CEMCpd0qGiB6m2KYtA.html"
     title = "Plot Method Signatures · Makie"
     url = "documentation/plot_method_signatures/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/OeoGwYj57Woxzems66lH.html"
+    path = "/tmp/jl_QtFLRb/OeoGwYj57Woxzems66lH.html"
     title = "Plot Recipes · Makie"
     url = "documentation/recipes/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/77OqnkiV4m9dazzkCEYV.html"
+    path = "/tmp/jl_QtFLRb/77OqnkiV4m9dazzkCEYV.html"
     title = "Scenes · Makie"
     url = "documentation/scenes/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/UfqEE2nERFeIr1iQyl0A.html"
+    path = "/tmp/jl_QtFLRb/UfqEE2nERFeIr1iQyl0A.html"
     title = "Theming · Makie"
     url = "documentation/theming/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/t1xVxw6fCoRs2IeLULJi.html"
+    path = "/tmp/jl_QtFLRb/t1xVxw6fCoRs2IeLULJi.html"
     title = "Predefined themes · Makie"
     url = "documentation/theming/predefined_themes/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/ip2RX0KdwDkyGtS3xJW8.html"
+    path = "/tmp/jl_QtFLRb/ip2RX0KdwDkyGtS3xJW8.html"
     title = "Basic transparency · Makie"
     url = "documentation/transparency/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/hUpj66U0KnAdMPzB8fqZ.html"
+    path = "/tmp/jl_QtFLRb/hUpj66U0KnAdMPzB8fqZ.html"
     title = "Examples · Makie"
     url = "examples/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/TdHzibiUD4Ud15M1ADlX.html"
+    path = "/tmp/jl_QtFLRb/TdHzibiUD4Ud15M1ADlX.html"
     title = "Blocks & Widgets · Makie"
     url = "examples/blocks/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/ay8Mzh21eQ5pwC3cS82I.html"
+    path = "/tmp/jl_QtFLRb/ay8Mzh21eQ5pwC3cS82I.html"
     title = "Axis · Makie"
     url = "examples/blocks/axis/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/1tq6SIJyiL2CsrAL8Bbw.html"
+    path = "/tmp/jl_QtFLRb/1tq6SIJyiL2CsrAL8Bbw.html"
     title = "Axis3 · Makie"
     url = "examples/blocks/axis3/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/UZxJLaVFQ2LHchnBwk71.html"
+    path = "/tmp/jl_QtFLRb/UZxJLaVFQ2LHchnBwk71.html"
     title = "Box · Makie"
     url = "examples/blocks/box/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/c7l72rZBmatJWBnvvxg1.html"
+    path = "/tmp/jl_QtFLRb/c7l72rZBmatJWBnvvxg1.html"
     title = "Button · Makie"
     url = "examples/blocks/button/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/7FFguj2GAl2K2Gb82ZiC.html"
+    path = "/tmp/jl_QtFLRb/7FFguj2GAl2K2Gb82ZiC.html"
     title = "Colorbar · Makie"
     url = "examples/blocks/colorbar/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/bwjWVwH3fBVx9CekTsbu.html"
+    path = "/tmp/jl_QtFLRb/bwjWVwH3fBVx9CekTsbu.html"
     title = "GridLayout · Makie"
     url = "examples/blocks/gridlayout/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/BB0vIEK7pEx05l22cxAG.html"
+    path = "/tmp/jl_QtFLRb/BB0vIEK7pEx05l22cxAG.html"
     title = "IntervalSlider · Makie"
     url = "examples/blocks/intervalslider/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/3bZhfZvJwsONONmIu2tu.html"
+    path = "/tmp/jl_QtFLRb/3bZhfZvJwsONONmIu2tu.html"
     title = "Label · Makie"
     url = "examples/blocks/label/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/Rn2S3dy29Tbjnyi9YGgP.html"
+    path = "/tmp/jl_QtFLRb/Rn2S3dy29Tbjnyi9YGgP.html"
     title = "Legend · Makie"
     url = "examples/blocks/legend/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/KiLSvOidObKXPWYI7IaV.html"
+    path = "/tmp/jl_QtFLRb/KiLSvOidObKXPWYI7IaV.html"
     title = "LScene · Makie"
     url = "examples/blocks/lscene/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/1se23IZf59P2wjHkXIaA.html"
+    path = "/tmp/jl_QtFLRb/1se23IZf59P2wjHkXIaA.html"
     title = "Menu · Makie"
     url = "examples/blocks/menu/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/3IsAKDTXmO29NtgzcGFo.html"
+    path = "/tmp/jl_QtFLRb/3IsAKDTXmO29NtgzcGFo.html"
     title = "Slider · Makie"
     url = "examples/blocks/slider/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/zv4wvlxxJFSyiaVVdoF6.html"
+    path = "/tmp/jl_QtFLRb/zv4wvlxxJFSyiaVVdoF6.html"
     title = "SliderGrid · Makie"
     url = "examples/blocks/slidergrid/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/7A17QjAxYAX02rFTd5Ef.html"
+    path = "/tmp/jl_QtFLRb/7A17QjAxYAX02rFTd5Ef.html"
     title = "Textbox · Makie"
     url = "examples/blocks/textbox/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/zKvoXnQdbxnv0lCfJ0k0.html"
+    path = "/tmp/jl_QtFLRb/zKvoXnQdbxnv0lCfJ0k0.html"
     title = "Toggle · Makie"
     url = "examples/blocks/toggle/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/kHZwSe2lO1pkcLDXnkT7.html"
+    path = "/tmp/jl_QtFLRb/kHZwSe2lO1pkcLDXnkT7.html"
     title = "Plotting functions · Makie"
     url = "examples/plotting_functions/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/UeXZc32h1JaeK1OoxCqc.html"
+    path = "/tmp/jl_QtFLRb/UeXZc32h1JaeK1OoxCqc.html"
     title = "ablines · Makie"
     url = "examples/plotting_functions/ablines/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/z1ZG3OwhaCZyF0qA1cG8.html"
+    path = "/tmp/jl_QtFLRb/z1ZG3OwhaCZyF0qA1cG8.html"
     title = "arc · Makie"
     url = "examples/plotting_functions/arc/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/hTyrp6i33tYQapPVLe5f.html"
+    path = "/tmp/jl_QtFLRb/hTyrp6i33tYQapPVLe5f.html"
     title = "arrows · Makie"
     url = "examples/plotting_functions/arrows/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/qZbINstJPUCTaKuAH1Sm.html"
+    path = "/tmp/jl_QtFLRb/qZbINstJPUCTaKuAH1Sm.html"
     title = "band · Makie"
     url = "examples/plotting_functions/band/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/sEvrUTzZr40miib6f6o2.html"
+    path = "/tmp/jl_QtFLRb/sEvrUTzZr40miib6f6o2.html"
     title = "barplot · Makie"
     url = "examples/plotting_functions/barplot/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/tdPagugg29GzGnqTqzst.html"
+    path = "/tmp/jl_QtFLRb/tdPagugg29GzGnqTqzst.html"
     title = "boxplot · Makie"
     url = "examples/plotting_functions/boxplot/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/fl2VNAATQSo7hkglifv8.html"
+    path = "/tmp/jl_QtFLRb/fl2VNAATQSo7hkglifv8.html"
     title = "bracket · Makie"
     url = "examples/plotting_functions/bracket/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/UPkGJts9dESBIlSJAMEz.html"
+    path = "/tmp/jl_QtFLRb/UPkGJts9dESBIlSJAMEz.html"
     title = "contour · Makie"
     url = "examples/plotting_functions/contour/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/0wWGptn6S8WeODXGU904.html"
+    path = "/tmp/jl_QtFLRb/0wWGptn6S8WeODXGU904.html"
     title = "contour3d · Makie"
     url = "examples/plotting_functions/contour3d/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/55g4u7vTm8WePdIV0ND0.html"
+    path = "/tmp/jl_QtFLRb/55g4u7vTm8WePdIV0ND0.html"
     title = "contourf · Makie"
     url = "examples/plotting_functions/contourf/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/NjE07H2mz3TaCdzqtiFY.html"
+    path = "/tmp/jl_QtFLRb/NjE07H2mz3TaCdzqtiFY.html"
     title = "crossbar · Makie"
     url = "examples/plotting_functions/crossbar/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/4QLg1k06oYstCVqImM65.html"
+    path = "/tmp/jl_QtFLRb/4QLg1k06oYstCVqImM65.html"
     title = "density · Makie"
     url = "examples/plotting_functions/density/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/8L2JgcZmlIGo6AQi2DV9.html"
+    path = "/tmp/jl_QtFLRb/8L2JgcZmlIGo6AQi2DV9.html"
     title = "ecdfplot · Makie"
     url = "examples/plotting_functions/ecdf/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/VD0VCpqq0gpBk3jKwYV9.html"
+    path = "/tmp/jl_QtFLRb/VD0VCpqq0gpBk3jKwYV9.html"
     title = "errorbars · Makie"
     url = "examples/plotting_functions/errorbars/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/eZ7i8C2IVxj4GCDkGr7X.html"
+    path = "/tmp/jl_QtFLRb/eZ7i8C2IVxj4GCDkGr7X.html"
     title = "heatmap · Makie"
     url = "examples/plotting_functions/heatmap/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/WHsS2yigV20uKOeEgMxw.html"
+    path = "/tmp/jl_QtFLRb/WHsS2yigV20uKOeEgMxw.html"
     title = "hexbin · Makie"
     url = "examples/plotting_functions/hexbin/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/KrKg8WaVtQ6OONqgIjix.html"
+    path = "/tmp/jl_QtFLRb/KrKg8WaVtQ6OONqgIjix.html"
     title = "hist · Makie"
     url = "examples/plotting_functions/hist/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/1kKGtcP0MqoyyDetz5uZ.html"
+    path = "/tmp/jl_QtFLRb/1kKGtcP0MqoyyDetz5uZ.html"
     title = "hlines and vlines · Makie"
     url = "examples/plotting_functions/hvlines/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/h5RYSO8EJ0mdpqIiemQj.html"
+    path = "/tmp/jl_QtFLRb/h5RYSO8EJ0mdpqIiemQj.html"
     title = "hspan and vspan · Makie"
     url = "examples/plotting_functions/hvspan/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/qDTmQG9rzM0fAB0rMiwW.html"
+    path = "/tmp/jl_QtFLRb/qDTmQG9rzM0fAB0rMiwW.html"
     title = "image · Makie"
     url = "examples/plotting_functions/image/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/kBAtjXRbFx5VLTCuZ5id.html"
+    path = "/tmp/jl_QtFLRb/kBAtjXRbFx5VLTCuZ5id.html"
     title = "lines · Makie"
     url = "examples/plotting_functions/lines/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/JI4CYCdRyashxPPSJF7A.html"
+    path = "/tmp/jl_QtFLRb/JI4CYCdRyashxPPSJF7A.html"
     title = "linesegments · Makie"
     url = "examples/plotting_functions/linesegments/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/qdyVSuHsAtCphINuFOKJ.html"
+    path = "/tmp/jl_QtFLRb/qdyVSuHsAtCphINuFOKJ.html"
     title = "mesh · Makie"
     url = "examples/plotting_functions/mesh/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/1Movtiw1ya6kLoaglhdc.html"
+    path = "/tmp/jl_QtFLRb/1Movtiw1ya6kLoaglhdc.html"
     title = "meshscatter · Makie"
     url = "examples/plotting_functions/meshscatter/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/3eakklDaBfoHSzz6TbTS.html"
+    path = "/tmp/jl_QtFLRb/3eakklDaBfoHSzz6TbTS.html"
     title = "pie · Makie"
     url = "examples/plotting_functions/pie/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/HdxcA3SYN6oBop09Yiqx.html"
+    path = "/tmp/jl_QtFLRb/HdxcA3SYN6oBop09Yiqx.html"
     title = "poly · Makie"
     url = "examples/plotting_functions/poly/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/6x6G7UttOZpuOuvDHPA6.html"
+    path = "/tmp/jl_QtFLRb/6x6G7UttOZpuOuvDHPA6.html"
     title = "qqplot and qqnorm · Makie"
     url = "examples/plotting_functions/qqplot/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/yyaAQeTpYbVb3PI4iXOF.html"
+    path = "/tmp/jl_QtFLRb/yyaAQeTpYbVb3PI4iXOF.html"
     title = "rainclouds · Makie"
     url = "examples/plotting_functions/rainclouds/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/YoZy2RvHYr03rolAEMtg.html"
+    path = "/tmp/jl_QtFLRb/YoZy2RvHYr03rolAEMtg.html"
     title = "rangebars · Makie"
     url = "examples/plotting_functions/rangebars/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/dFngtxao2i7oaUAACgy8.html"
+    path = "/tmp/jl_QtFLRb/dFngtxao2i7oaUAACgy8.html"
     title = "scatter · Makie"
     url = "examples/plotting_functions/scatter/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/4siI6hpewMlA1hiOr6IH.html"
+    path = "/tmp/jl_QtFLRb/4siI6hpewMlA1hiOr6IH.html"
     title = "scatterlines · Makie"
     url = "examples/plotting_functions/scatterlines/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/phEN6mwVN5oY3FTWugSs.html"
+    path = "/tmp/jl_QtFLRb/phEN6mwVN5oY3FTWugSs.html"
     title = "series · Makie"
     url = "examples/plotting_functions/series/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/9Ryq38fMyvOspmKEdJOs.html"
+    path = "/tmp/jl_QtFLRb/9Ryq38fMyvOspmKEdJOs.html"
     title = "spy · Makie"
     url = "examples/plotting_functions/spy/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/u6xtrASpgGWv3HPrPehQ.html"
+    path = "/tmp/jl_QtFLRb/u6xtrASpgGWv3HPrPehQ.html"
     title = "stairs · Makie"
     url = "examples/plotting_functions/stairs/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/XDQdG6xBX3BBsECsxQ1B.html"
+    path = "/tmp/jl_QtFLRb/XDQdG6xBX3BBsECsxQ1B.html"
     title = "stem · Makie"
     url = "examples/plotting_functions/stem/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/hmQ9ZQsk2azPn0d2I5jU.html"
+    path = "/tmp/jl_QtFLRb/hmQ9ZQsk2azPn0d2I5jU.html"
     title = "stephist · Makie"
     url = "examples/plotting_functions/stephist/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/Yz9fjjCE7m3LvxWkGem9.html"
+    path = "/tmp/jl_QtFLRb/Yz9fjjCE7m3LvxWkGem9.html"
     title = "streamplot · Makie"
     url = "examples/plotting_functions/streamplot/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/rs9YARoGBZIwilQ4qxRX.html"
+    path = "/tmp/jl_QtFLRb/rs9YARoGBZIwilQ4qxRX.html"
     title = "surface · Makie"
     url = "examples/plotting_functions/surface/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/sCAoV6XTaBEIrb54xYNI.html"
+    path = "/tmp/jl_QtFLRb/sCAoV6XTaBEIrb54xYNI.html"
     title = "text · Makie"
     url = "examples/plotting_functions/text/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/q4gPo54gDpCTRnWIACM0.html"
+    path = "/tmp/jl_QtFLRb/q4gPo54gDpCTRnWIACM0.html"
     title = "tooltip · Makie"
     url = "examples/plotting_functions/tooltip/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/qGCiQb8moDLLz231TZFu.html"
+    path = "/tmp/jl_QtFLRb/qGCiQb8moDLLz231TZFu.html"
     title = "tricontourf · Makie"
     url = "examples/plotting_functions/tricontourf/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/fi4MzGItXq41kfyxzqOD.html"
+    path = "/tmp/jl_QtFLRb/fi4MzGItXq41kfyxzqOD.html"
     title = "violin · Makie"
     url = "examples/plotting_functions/violin/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/ooHlvGVTBDAdKVRWkQGC.html"
+    path = "/tmp/jl_QtFLRb/ooHlvGVTBDAdKVRWkQGC.html"
     title = "volume · Makie"
     url = "examples/plotting_functions/volume/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/eJw3CGjsES5N8mQTjp2O.html"
+    path = "/tmp/jl_QtFLRb/eJw3CGjsES5N8mQTjp2O.html"
     title = "volumeslices · Makie"
     url = "examples/plotting_functions/volumeslices/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/5FWnINtmJNCG0sBwFvif.html"
+    path = "/tmp/jl_QtFLRb/5FWnINtmJNCG0sBwFvif.html"
     title = "waterfall · Makie"
     url = "examples/plotting_functions/waterfall/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/NhOGjHZRqiBOyB2vGQSh.html"
+    path = "/tmp/jl_QtFLRb/NhOGjHZRqiBOyB2vGQSh.html"
     title = "wireframe · Makie"
     url = "examples/plotting_functions/wireframe/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/7AP3w0g8BCGpEKqxtM4Y.html"
+    path = "/tmp/jl_QtFLRb/7AP3w0g8BCGpEKqxtM4Y.html"
     title = "News · Makie"
     url = "news/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/rrLBZK461nd01VMRMBHE.html"
+    path = "/tmp/jl_QtFLRb/rrLBZK461nd01VMRMBHE.html"
     title = "Search · Makie"
     url = "search/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/RRBIgACyrv9EKesYDY2h.html"
+    path = "/tmp/jl_QtFLRb/RRBIgACyrv9EKesYDY2h.html"
     title = "Tutorials · Makie"
     url = "tutorials/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/5V2sNI9x86hoJl4h7qZu.html"
+    path = "/tmp/jl_QtFLRb/5V2sNI9x86hoJl4h7qZu.html"
     title = "Aspect ratio and size control tutorial · Makie"
     url = "tutorials/aspect-tutorial/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/sLXGhFw7Bmbc0MGjXTT7.html"
+    path = "/tmp/jl_QtFLRb/sLXGhFw7Bmbc0MGjXTT7.html"
     title = "Basic Tutorial · Makie"
     url = "tutorials/basic-tutorial/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/rwpIiVqvgwMThpPt6txO.html"
+    path = "/tmp/jl_QtFLRb/rwpIiVqvgwMThpPt6txO.html"
     title = "Layout Tutorial · Makie"
     url = "tutorials/layout-tutorial/index.html"
     [[input.files]]
-    path = "/tmp/jl_7zGB7O/XApOzDQwzDxqK16Xfbux.html"
+    path = "/tmp/jl_QtFLRb/XApOzDQwzDxqK16Xfbux.html"
     title = "Scene tutorial · Makie"
     url = "tutorials/scenes/index.html"
 
