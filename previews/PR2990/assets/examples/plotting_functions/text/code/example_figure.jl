@@ -2,7 +2,6 @@
 __result = begin # hide
     using CairoMakie
 CairoMakie.activate!() # hide
-Makie.inline!(true) # hide
 
 f = Figure(fontsize = 30)
 Label(
@@ -25,6 +24,6 @@ Label(
 
 f
 end # hide
-save(joinpath(@OUTPUT, "example_4714579123963497324.png"), __result; ) # hide
-save(joinpath(@OUTPUT, "example_4714579123963497324.svg"), __result; ) # hide
+save(joinpath(@OUTPUT, "example_6494641544194656655.png"), __result; ) # hide
+save(joinpath(@OUTPUT, "example_6494641544194656655.svg"), __result; ) # hide
 nothing # hide
